@@ -1,0 +1,25 @@
+{
+  "name": "tailfood",
+  "version": "1.0.0",
+  "description": "A project to learn to use CSS Framework Tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/fokobot/TailFood.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "CSS",
+    "Framework",
+    "Food",
+    "Learning"
+  ],
+  "author": "Fabian Osorio Iriarte",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
